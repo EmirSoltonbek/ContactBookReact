@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap');
 body{
     margin: 0;
-    padding: 0 8px;
+    /* padding: 0 8px; */
     color: black;
     /* background-image: url('./images/pexels-pixabay-531880.jpg'); */
     font-weight: bold;
@@ -22,19 +22,26 @@ table tr{
     transition: 0.3s;
 }
 table tr:hover{
-    background-color: rgb(186, 186, 186);
+    background-color: blue;
+    color: white;
 }
 .addUserBlock{
 text-align: center;
 margin: 0px 0px 30px 0px;
+background-color: blue;
+padding: 30px 0px;
 }
 h1{
     text-align: center;
+    background-color: blue;
+    margin: 0;
+    padding: 20px 0px 0px 0px;
+    color: white;
 }
 .bigModal{
     width: 100vw;
     height: 100vh;
-    background-color: bisque;
+    background-color: blue;
     position: fixed;
     top: 0;
     left: 0;
@@ -67,6 +74,7 @@ input{
 }
 .close{
     cursor: pointer;
+    color: white;
 }
 .addBtn{
     width: 80px;
